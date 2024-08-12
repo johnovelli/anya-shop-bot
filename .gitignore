@@ -1,0 +1,8 @@
+/venv
+
+/.idea
+
+/git
+
+__pycache__/capture_window.cpython-312.pyc
+
