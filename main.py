@@ -1,14 +1,20 @@
 import cv2 as cv
 from PIL import ImageGrab
-from capture_window import capture_game_window
+from capture_window.capture_window import capture_game_window
 from anya_process import processAnya
+from shop_process import processShop
 
+is_trade_open = False
 
 while True:
+
     try:
         game_window = capture_game_window("Diablo II: Resurrected")
 
-        processAnya(game_window)
+        if not is_trade_open:
+            is_trade_open = processAnya(game_window)
+        if is_trade_open:
+            is_trade_open = processShop(game_window)
 
         height, width = game_window.shape[:2]
         resized_game_window = cv.resize(game_window, (width // 2, height // 2))
