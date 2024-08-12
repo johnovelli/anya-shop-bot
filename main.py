@@ -1,11 +1,14 @@
 import cv2 as cv
 from PIL import ImageGrab
 from capture_window import capture_game_window
+from anya_process import processAnya
 
 
 while True:
     try:
         game_window = capture_game_window("Diablo II: Resurrected")
+
+        processAnya(game_window)
 
         height, width = game_window.shape[:2]
         resized_game_window = cv.resize(game_window, (width // 2, height // 2))
