@@ -10,9 +10,8 @@ def processAnya(game_window):
 
     backToTown(game_window)
 
-    trade_is_open = startTrade(game_window)
-    if trade_is_open:
-        return trade_is_open
+    if startTrade(game_window):
+        return True
 
     anya_best_match = {'max_val': 0, 'top_left': (0, 0), 'bot_right': (0, 0)}
     anya_imgs = ['imgs/anya/anya1.jpg', 'imgs/anya/anya2.jpg', 'imgs/anya/anya3.jpg', 'imgs/anya/anya4.jpg', 'imgs/anya/anya5.jpg', 'imgs/anya/anya6.jpg']
