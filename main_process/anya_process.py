@@ -1,9 +1,9 @@
 import time
 import pyautogui
-from find_target import getTargetValues, getTargetBorder_Center
-from capture_window.game_center import moveToGameWindowCenter
-from back_to_town import backToTown
-from start_trade import startTrade
+from capture.find_target import getTargetValues, getTargetBorder_Center
+from capture.game_center import moveToGameWindowCenter
+from actions.back_to_town import backToTown
+from actions.start_trade import startTrade
 
 
 def processAnya(game_window):

@@ -48,3 +48,4 @@ def getTargetBorder_Center(game_window, top_left, bot_right, color):
     centers = (top_left[0] + bot_right[0]) // 2, (top_left[1] + bot_right[1]) // 2
     cv.drawMarker(game_window, centers, color=(135, 12, 236), markerType=cv.MARKER_CROSS)
     return centers
+
