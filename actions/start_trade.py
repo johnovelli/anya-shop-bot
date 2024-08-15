@@ -1,7 +1,7 @@
 import pyautogui
 
 from capture.game_center import moveToGameWindowCenter
-from capture.find_target import getTargetBorder_Center, getTargetValues
+from capture.get_target import getTargetBorder_Center, getTargetValues
 
 
 def startTrade(game_window):

@@ -1,7 +1,7 @@
 import time
 import pyautogui
 
-from capture.find_target import getTargetValues, getTargetBorder_Center
+from capture.get_target import getTargetValues, getTargetBorder_Center
 from capture.game_center import moveToGameWindowCenter
 
 

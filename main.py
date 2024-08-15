@@ -10,7 +10,6 @@ while True:
 
     try:
         game_window = capture_game_window("Diablo II: Resurrected")
-
         if not is_trade_open:
             is_trade_open = processAnya(game_window)
         if is_trade_open:
