@@ -27,6 +27,6 @@ def processAnya(game_window):
         )
         moveToGameWindowCenter("Diablo II: Resurrected", anya_center)
         pyautogui.click()
-        time.sleep(2)
+        time.sleep(1.25)
 
     return False

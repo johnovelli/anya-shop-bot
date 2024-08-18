@@ -1,0 +1,8 @@
+opencv-python~=4.10.0.84
+numpy~=1.26.4
+configparser~=7.0.0
+pytesseract~=0.3.10
+PyGetWindow~=0.0.9
+mss~=9.0.1
+keyboard~=0.13.5
+PyAutoGUI~=0.9.54

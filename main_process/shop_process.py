@@ -13,6 +13,7 @@ def shopProcess(game_window):
         armorProcess(game_window)
         openWeapons(game_window)
         clawProcess()
-        leaveTown(game_window)
+
+        return leaveTown(game_window)
 
     return True
