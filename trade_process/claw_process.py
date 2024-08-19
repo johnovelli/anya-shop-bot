@@ -11,6 +11,7 @@ def clawProcess():
         time.sleep(0.5)
 
         if checkClawAttributes():
+            print('')
             print('i have to buy :D')
             pyautogui.click(button='right')
 

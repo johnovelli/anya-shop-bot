@@ -25,6 +25,7 @@ def checkClawAttributes():
             is_skill_range = (any(str(num) in line for num in skill_range))
             if (any(more_skill in line for more_skill in more_skill_lines)
                     and is_skill_range):
+                print('')
                 print(f'Traps or assassin skills: {line}')
                 att_screenshot('claws', attributes_img)
                 more_skill = True
@@ -32,11 +33,13 @@ def checkClawAttributes():
             is_has_skill_range = (any(str(num) in line for num in has_skill_range))
             if (any(has_skill in line for has_skill in has_skill_lines)
                     and is_has_skill_range):
+                print('')
                 print(f'Lightning Sentry skills: {line}')
                 att_screenshot('claws', attributes_img)
                 has_skill = True
 
     if more_skill and has_skill:
+        print('')
         print('50x jah!')
         return True
 

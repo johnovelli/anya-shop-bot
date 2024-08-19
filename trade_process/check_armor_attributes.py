@@ -22,6 +22,7 @@ def checkArmorAttributes():
 
         is_life_range = (any(str(num) in line for num in life_range))
         if any(life in line for life in life_lines) and is_life_range:
+            print("")
             print('Life in range:' + line)
             att_screenshot('armor', attributes_img)
             life_in_range = True
@@ -29,11 +30,13 @@ def checkArmorAttributes():
         is_sockets_range = (any(str(num) in line for num in sockets_range))
         if (any(socketed in line for socketed in socketed_lines)
                 and is_sockets_range):
+            print("")
             print('Socketed in range:' + line)
             att_screenshot('armor', attributes_img)
             four_socketed = True
 
     if life_in_range and four_socketed:
+        print('')
         print('50x jah!')
         return True
 

@@ -21,5 +21,6 @@ def armorProcess(game_window):
             time.sleep(0.5)
 
             if checkArmorAttributes():
+                print('')
                 print('i have to buy :D')
                 pyautogui.click(button='right')

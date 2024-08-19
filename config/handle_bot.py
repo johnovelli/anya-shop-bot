@@ -10,6 +10,7 @@ def start_bot():
     global bot_process
     if bot_process is None:
         bot_process = subprocess.Popen(['python', 'main.py'])
+        print("")
         print("Bot started.")
         game_window = gw.getWindowsWithTitle("Diablo II: Resurrected")[0]
         bot_window = gw.getWindowsWithTitle("Anya shop bot 0.1")[0]
@@ -25,6 +26,7 @@ def stop_bot():
     if bot_process is not None:
         bot_process.terminate()
         bot_process = None
+        print("")
         print("Bot stopped.")
 
 

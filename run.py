@@ -7,9 +7,7 @@ from config.handle_bot import bot_process, start_bot, stop_bot, terminate_and_ex
 
 ctypes.windll.kernel32.SetConsoleTitleW("Anya Shop Bot 0.1")
 
-
 print(intro_message)
-
 
 while True:
     if keyboard.is_pressed('F1') and bot_process is None:
