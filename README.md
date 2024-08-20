@@ -69,13 +69,13 @@ The final result will be:
 - The resolution should be set to 1280x720.
 - The game should be in Windowed Mode.
 
-![Tesseract Installation](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/tesseract-windows.jpg)
+![Tesseract Installation](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/display_settings.jpg)
 
 ### 3) Gameplay Settings
 
-- Large Font Mode should be enabled.
+- In accessibility Large Font Mode should be enabled.
 
-![Tesseract Installation](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/tesseract-windows.jpg)
+![Tesseract Installation](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/large_mode_settings.jpg)
 
 
 <hr>
