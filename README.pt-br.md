@@ -56,4 +56,3 @@ O resultado final será:
 ```bash 
 /usr/bin/
 ```
-xx
