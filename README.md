@@ -66,7 +66,7 @@ The final result will be:
 
 ### 2) Resolution and Display mode
 
-- The resolution should be set to 1280x720.
+- The resolution should be 1280x720.
 - The game should be in Windowed Mode.
 
 ![Resolution and Display mode](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/display_settings.jpg)

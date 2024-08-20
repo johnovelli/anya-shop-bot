@@ -57,3 +57,22 @@ O resultado final será:
 ```
 #
 #### Para garantir o funcionamento correto do bot, configure o jogo e a tela conforme as seguintes especificações:
+
+### 1) Idioma
+
+- Diablo 2 Resurrected deve estar em Inglês.
+
+### 2) Resolução e Modo de Exibição
+
+- A resolução deve ser configurada para 1280x720.
+- O jogo deve estar no Modo Janela.
+
+![Resolução e Modo de Exibição](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/display_settings.jpg)
+
+### 3) Configurações de Jogabilidade
+
+- Em acessibility o Modo de Fonte Grande deve estar habilitado.
+
+![Configurações de Jogabilidade](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/large_mode_settings.jpg)
+
+<hr>
