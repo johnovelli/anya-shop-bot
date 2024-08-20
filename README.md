@@ -58,7 +58,7 @@ The final result will be:
 /usr/bin
 ```
 #
-##### To ensure the bot works correctly, please configure the game and screen according to the following specifications:
+#### To ensure the bot works correctly, please configure the game and screen according to the following specifications:
 
 ### 1) Language
 
@@ -69,13 +69,13 @@ The final result will be:
 - The resolution should be set to 1280x720.
 - The game should be in Windowed Mode.
 
-![Tesseract Installation](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/display_settings.jpg)
+![Resolution and Display mode](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/display_settings.jpg)
 
 ### 3) Gameplay Settings
 
 - In accessibility Large Font Mode should be enabled.
 
-![Tesseract Installation](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/large_mode_settings.jpg)
+![Gameplay Settings](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/large_mode_settings.jpg)
 
 
 <hr>
