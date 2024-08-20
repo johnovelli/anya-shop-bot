@@ -12,7 +12,7 @@ full-stack e mesmo que não tenha aprendido os conhecimentos para isso,
 decidi tentar realizar o que achava impossível e consegui =)
 
 ## Instalação e Pré-Requisitos
-###### Antes de usar o bot é necessário garantir que algumas ferramentas estejam instaladas em seu sistema:
+##### Antes de usar o bot é necessário garantir que algumas ferramentas estejam instaladas em seu sistema:
 
 ### 1) Python
 O Anya Shop Bot é desenvolvido em Python, que é necessário para rodar o 
@@ -55,5 +55,5 @@ O resultado final será:
 ```bash 
 /usr/bin/
 ```
-
-<hr>
+#
+#### Para garantir o funcionamento correto do bot, configure o jogo e a tela conforme as seguintes especificações:

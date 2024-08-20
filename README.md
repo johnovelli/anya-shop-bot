@@ -13,7 +13,7 @@ to try to achieve what I once thought was impossible and I succeeded =)
 
 ## Installation and Prerequisites
 
-###### Before using the bot, it is necessary to ensure that some tools are installed on your system:
+#### Before using the bot, it is necessary to ensure that some tools are installed on your system:
 
 ### 1) Python
 The Anya Shop Bot is developed in Python, which is necessary for running the 
@@ -58,4 +58,24 @@ The final result will be:
 /usr/bin
 ```
 #
-###### In order to :
+##### To ensure the bot works correctly, please configure the game and screen according to the following specifications:
+
+### 1) Language
+
+- Diablo 2 Resurrected must be set to English.
+
+### 2) Resolution and Display mode
+
+- The resolution should be set to 1280x720.
+- The game should be in Windowed Mode.
+
+![Tesseract Installation](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/tesseract-windows.jpg)
+
+### 3) Gameplay Settings
+
+- Large Font Mode should be enabled.
+
+![Tesseract Installation](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/tesseract-windows.jpg)
+
+
+<hr>
