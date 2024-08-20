@@ -46,12 +46,13 @@ Este comando retornará o caminho para o executável do Tesseract. Por exemplo:
 ```bash 
 /usr/bin/tesseract
 ```
+ou
 ```bash 
 /usr/local/bin/tesseract
 ```
-Next, copy the path that is returned, but make sure to remove /tesseract from the end.
-So, if the command returns /usr/bin/tesseract, you'll copy only /usr/bin as the path. 
-Like this:
+Em seguida, copie o caminho que é retornado, mas certifique-se de remover /tesseract do final.
+Portanto, se o comando retornar /usr/bin/tesseract, você copiara apenas /usr/bin como o caminho.
+O resultado final será:
 ```bash 
 /usr/bin/
 ```
