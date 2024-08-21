@@ -77,6 +77,8 @@ The final result will be:
 
 ![Gameplay Settings](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/large_mode_settings.jpg)
 
+<br>
+
 ## Downloading and Configuring the Bot
 
 ### 1) Download the Files
@@ -84,8 +86,8 @@ The final result will be:
 Choose one of the files below to download the Anya Shop 
 Bot based on your operating system:
 
-- [**anya-shop-bot-0.1.zip:**](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-0.1.zip) for systems that use ZIP files (Windows).
-- [**anya-shop-bot.tar.gz:**](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-0.1.tar) for systems that use TAR files (Linux or macOS).
+- [**anya-shop-bot-0.1.zip**](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-0.1.zip) for systems that use ZIP files (Windows).
+- [**anya-shop-bot.tar.gz**](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-0.1.tar) for systems that use TAR files (Linux or macOS).
 
 ### 2) Installing Dependencies
 
@@ -101,22 +103,51 @@ the necessary dependencies for the bot run.
 1.**Locate the Configuration File**
 
 In the folder where you extracted the bot, find the file named 
-config.ini. This file contains settings necessary for the bot’s operation.
+`config.ini`. This file contains settings necessary for the bot’s operation.
 
 
-2.**Edit the Configuration File**
+2.**Edit the Config File**
 
 Open config.ini with a text editor of your choice (e.g., Notepad on 
 Windows, TextEdit on macOS, or any other text editor).
-- **Tesseract Path Configuration**
 
-    Inside the [tesseract] section, you need to specify the path where 
-    Tesseract OCR is installed. If you installed Tesseract in the default
+**Tesseract Path Configuration**
+
+Inside the [tesseract] section, you need to specify the path where 
+Tesseract OCR is installed, which you copied earlier during the 
+installation process.
+
+If you are unsure of where Tesseract is installed, scroll to the installation 
+steps at the beginning of the document to find instructions on how to locate 
+the path.
+
+- **Windows:**
+
+    If you installed Tesseract in the default
     directory `C:\Program Files\Tesseract-OCR`, you do not need to make 
     any changes.
-    
-    
 
+    If installed elsewhere, specify the full path to the Tesseract executable
+    and format it correctly:
+
+    - add an extra backslash(` \ `) in each path segment. For example:
+  
+    ```ini
+    [tesseract]
+    pytesseract_path = C:\\Your\\Custom\\Path\\To\\Tesseract-OCR
+    ```
+
+<br>
+
+- **Linux or macOS:**
+
+  Paste the copied path earlier. For example:
+    ```ini
+    [tesseract]
+    pytesseract_path = /usr/local/bin
+    ```
+  
+<br>
 
 ## Releases
 
