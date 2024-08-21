@@ -30,12 +30,15 @@ imagens em texto. É essencial instalar para que o programa funcione corretament
 Mais adiante na configuração você precisara ter o caminho de diretório aonde o Tesseract 
 foi instalado copiado, siga as instruções abaixo:
 
-**Windows -** Durante a instalação do Tesseract você precisará escolher o diretório, como mostrado na imagem:
+**Windows -** Durante a instalação do Tesseract você precisará escolher o diretório, 
+como mostrado na imagem:
 
 ![Instalação do Tesseract](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/tesseract-windows.jpg)
 
 Por padrão, o diretório será C:\Program Files\Tesseract-OCR copie este caminho e 
 mantenha salvo.
+
+<br>
 
 **Linux or macOS -**  Após instalar o Tesseract, execute o seguinte comando em seu terminal:
 ```bash
