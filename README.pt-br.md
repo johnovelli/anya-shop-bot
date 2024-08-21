@@ -11,6 +11,32 @@ anos atrás. Recentemente, concluí um curso de desenvolvedor
 full-stack e mesmo que não tenha aprendido os conhecimentos para isso,
 decidi tentar realizar o que achava impossível e consegui =)
 
+<br>
+
+## O Que Faz o Anya Shop Bot?
+
+O Anya Shop Bot automatiza o processo de verificação de itens em Diablo 2 Resurrected 
+usando Reconhecimento Óptico de Caracteres (OCR). Ele procura especificamente por:
+
+- **Armaduras** com o sufixo "The Whale" que possuem vida e sejam socketed
+- **Trap Claws** com assassin ou trap skills e lighting sentry skills.
+
+Você pode definir os parâmetros exatos que o bot irá buscar, incluindo:
+
+- Percentual mínimo de vida e número mínimo de sockets para armaduras.
+
+- Mínimo de assassin oo trap skills e mínimo de lighting sentry skills para garras.
+
+Quando um item atende aos seus critérios, o bot o comprará automaticamente.
+
+Essa ferramenta pode economizar inúmeras horas de verificação manual, permitindo que 
+você se concentre nas partes divertidas do jogo enquanto o bot lida com as tarefas 
+repetitivas. Além disso, analisar o log de imagens de itens que atenderam a pelo menos 
+um critério pode ser fascinante, oferecendo insights sobre a randomização de itens 
+no jogo.
+
+<br>
+
 ## Instalação e Pré-Requisitos
 ##### Antes de usar o bot é necessário garantir que algumas ferramentas estejam instaladas em seu sistema:
 
@@ -73,6 +99,43 @@ O resultado final será:
 - Em acessibility o Modo de Fonte Grande deve estar habilitado.
 
 ![Configurações de Jogabilidade](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/large_mode_settings.jpg)
+
+<br>
+
+## Downloading and Configuring the Bot
+
+### 1) Baixar os Arquivos
+
+Escolha um dos arquivos abaixo para baixar o Anya Shop Bot com base no seu 
+sistema operacional:
+
+- [**anya-shop-bot-0.1.zip**](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-0.1.zip) for systems that use ZIP files (Windows).
+- [**anya-shop-bot.tar.gz**](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-0.1.tar) for systems that use TAR files (Linux or macOS).
+
+### 2) Installing Dependencies
+
+Após baixar e extrair a pasta do bot:
+1. Certifique-se de que o Python está instalado no seu sistema.
+2. Navegue até a pasta onde você extraiu o bot e abra-a.
+3. Localize o arquivo chamado install_requirements.py.
+4. Dê um duplo clique em install_requirements.py para executá-lo. 
+Isso instalará todas as dependências necessárias.
+
+### 3) Configurando o Bot
+
+**Localize e Edite o Arquivo de Config**
+
+1- **Configuração do Caminho do Tesseract**
+
+Dentro da seção [tesseract], você precisa especificar o caminho onde o Tesseract OCR 
+está instalado, que você copiou anteriormente durante o processo de instalação.
+
+Se você não souber onde o Tesseract está instalado, role até as etapas de instalação no 
+início do documento para encontrar instruções sobre como localizar o caminho.
+
+- **Windows:**
+
+
 
 ## Primeira Versão
 [Version 0.1 - Initial Release](https://github.com/johnovelli/anya-shop-bot/releases/tag/v0.1)

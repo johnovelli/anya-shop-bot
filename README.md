@@ -15,22 +15,25 @@ to try to achieve what I once thought was impossible and I succeeded =)
 
 ## What Does Anya Shop Bot Do ?
 
-The Anya Shop Bot automates item checking in Diablo 2 Resurrected using Optical 
-Character Recognition (OCR) to read in-game item stats and compare with your
-specific parameters:
+The Anya Shop Bot automates the process of checking items in Diablo 2 Resurrected 
+using Optical Character Recognition (OCR). It specifically searches for:
 
-- **Minimum life percentage and minimum number of sockets for armors.**
+- **Armors** with the suffix "The Whale" that contain life and are socketed.
+- **Trap Claws** with assassin or trap skills and lighting sentry skills.
 
+You can define the exact parameters witch the bot will search for:
 
-- **Minimum assassin or trap skills and minimum lighting sentry skills for claws.**
+- Minimum life percentage and minimum number of sockets for armors.
+
+- Minimum assassin or trap skills and minimum lighting sentry skills for claws.
 
 When an item meets your criteria, the bot will automatically
 purchase it.
 
 This tool can save you countless hours of manual checking, letting you focus on the 
-fun parts of the game while the bot does the repetitive work. Additionally, analyzing 
-the log of images for items that met at least one criterion can be fascinating, 
-offering insights into item randomization in the game.
+fun parts of the game while the bot handles the repetitive tasks. Additionally, 
+analyzing the log of images for items that met at least one criterion can be 
+fascinating, offering insights into the game item randomization.
 
 
 
