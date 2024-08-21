@@ -15,7 +15,7 @@ decidi tentar realizar o que achava impossível e consegui =)
 
 <br>
 
-# O Que Faz o Anya Shop Bot?
+## O Que Faz o Anya Shop Bot?
 
 <br>
 
@@ -129,7 +129,7 @@ Isso instalará todas as dependências necessárias.
 
 **Localize e Edite o Arquivo de Config**
 
-1- **Configuração do Caminho do Tesseract**
+**1- Configuração do Caminho do Tesseract**
 
 Dentro da seção [tesseract], você precisa especificar o caminho onde o Tesseract OCR 
 está instalado, que você copiou anteriormente durante o processo de instalação.

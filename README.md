@@ -14,7 +14,7 @@ to try to achieve what I once thought was impossible and I succeeded =)
 
 <br>
 
-# What Does Anya Shop Bot Do ?
+## What Does Anya Shop Bot Do ?
 
 <br>
 
@@ -135,7 +135,7 @@ In the folder where you extracted the bot, find the file named
 `config.ini`, and open it using a text editor of your choice, ex: (Notepad on
 Windows, TextEdit on macOS, etc.).
 
-1- **Tesseract Path Configuration**
+**1- Tesseract Path Configuration**
 
 Inside [tesseract] section, you need to specify the path where 
 Tesseract OCR is installed, which you copied earlier during the 
@@ -155,23 +155,55 @@ the path.
     and format it correctly:
 
     - add an extra backslash (` \ `) in each path segment. For example:
-  
-    ```ini
-    [tesseract]
+
+  ```ini
+  [tesseract]
     pytesseract_path = C:\\Your\\Custom\\Path\\To\\Tesseract-OCR
-    ```
+  ```
   
 - **Linux or macOS:**
 
   Paste the copied path earlier. For example:
-    ```ini
-    [tesseract]
-    pytesseract_path = /usr/local/bin
-    ```
+  ```ini
+  [tesseract]
+  pytesseract_path = /usr/local/bin
+  ```
   
 <br>
 
-2- ** **
+**2- Configuring the Bot Parameters**
+
+**Armor:**
+
+  - **min_life:** Defines the minimum life percentage an armor item must 
+have to be considered by the bot. This value should be between 
+1 and 99
+- **min_sockets:** Specifies the minimum number of sockets that the 
+armor must have to be considered. This value should be between 1 and 4.
+
+  Example:
+  ```ini
+  [params]
+  min_life = 80
+  min_sockets = 2
+  ```
+**Claw:** 
+- **min_skill:** Defines the minimum number of assassin or trap 
+skills an item must have. This value should be between 1 and 3.
+- **min_has_skill:** Specifies the minimum number of lightning
+sentry skills an item must have. This value should also be 
+between 1 and 3.
+
+  Example:
+  ```ini
+  [params]
+  min_skill = 2
+  min_has_skill = 2
+  ```
+
+<br>
+
+## Running the bot
 
 <br>
 
