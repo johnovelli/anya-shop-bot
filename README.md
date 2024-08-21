@@ -1,4 +1,5 @@
-# Anya Shop Bot - 
+
+# Anya Shop Bot
 
 [Leia este documento em português.](README.pt-br.md)
 

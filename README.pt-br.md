@@ -1,4 +1,6 @@
-# Anya Shop Bot - 
+# Anya Shop Bot
+
+<br>
 
 O propósito deste projeto é compartilhar os conhecimentos que aprendi
 durante o desenvolvimento deste bot. Quero inspirar
@@ -13,7 +15,7 @@ decidi tentar realizar o que achava impossível e consegui =)
 
 <br>
 
-## O Que Faz o Anya Shop Bot?
+# O Que Faz o Anya Shop Bot?
 
 <br>
 
