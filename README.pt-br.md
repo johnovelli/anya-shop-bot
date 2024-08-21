@@ -15,6 +15,8 @@ decidi tentar realizar o que achava impossível e consegui =)
 
 ## O Que Faz o Anya Shop Bot?
 
+<br>
+
 O Anya Shop Bot automatiza o processo de verificação de itens em Diablo 2 Resurrected 
 usando Reconhecimento Óptico de Caracteres (OCR). Ele procura especificamente por:
 
@@ -135,7 +137,32 @@ início do documento para encontrar instruções sobre como localizar o caminho.
 
 - **Windows:**
 
+  Se você instalou o Tesseract no diretório padrão 
+  `C:\Program Files\Tesseract-OCR`, não é necessário fazer alterações.
 
+  Se instalado em outro local, especifique o caminho completo para o executável do 
+  Tesseract e formate-o corretamente:
+
+    - adicione uma barra invertida extra (` \ `) em cada segmento do caminho. Por exemplo:
+
+    ```ini
+    [tesseract]
+    pytesseract_path = C:\\Your\\Custom\\Path\\To\\Tesseract-OCR
+    ```
+
+- **Linux or macOS:**
+
+  Cole o caminho copiado anteriormente. Por exemplo:
+    ```ini
+    [tesseract]
+    pytesseract_path = /usr/local/bin
+    ```
+
+<br>
+
+2- ** **
+
+<br>
 
 ## Primeira Versão
 [Version 0.1 - Initial Release](https://github.com/johnovelli/anya-shop-bot/releases/tag/v0.1)

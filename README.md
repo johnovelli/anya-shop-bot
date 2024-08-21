@@ -15,6 +15,8 @@ to try to achieve what I once thought was impossible and I succeeded =)
 
 # What Does Anya Shop Bot Do ?
 
+<br>
+
 The Anya Shop Bot automates the process of checking items in Diablo 2 Resurrected 
 using Optical Character Recognition (OCR). It specifically searches for:
 
@@ -151,7 +153,7 @@ the path.
     If installed elsewhere, specify the full path to the Tesseract executable
     and format it correctly:
 
-    - add an extra backslash(` \ `) in each path segment. For example:
+    - add an extra backslash (` \ `) in each path segment. For example:
   
     ```ini
     [tesseract]
@@ -169,10 +171,6 @@ the path.
 <br>
 
 2- ** **
-
-Inside [tesseract] section, you need to specify the path where
-Tesseract OCR is installed, which you copied earlier during the
-installation process.
 
 <br>
 
