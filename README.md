@@ -1,4 +1,4 @@
-# Anya Shop Bot - In final stages of development;
+# Anya Shop Bot - 
 
 [Leia este documento em português.](README.pt-br.md)
 

@@ -1,4 +1,4 @@
-# Anya Shop Bot - Em fase final de desenvolvimento
+# Anya Shop Bot - 
 
 O propósito deste projeto é compartilhar os conhecimentos que aprendi
 durante o desenvolvimento deste bot. Quero inspirar
