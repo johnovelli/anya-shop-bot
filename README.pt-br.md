@@ -77,7 +77,7 @@ O resultado final será:
 ## Primeira Versão
 [Version 0.1 - Initial Release](https://github.com/johnovelli/anya-shop-bot/releases/tag/v0.1)
 
-Esta é a primeira versão do bot. Ela inclui funcionalidades básicas, mas ainda há espaço
+Esta é a primeira versão do bot. Ela inclui funcionalidades básicas, ainda há espaço
 para melhorias. Mais recursos e aprimoramentos serão adicionados em futuras atualizações.
 
 **Links para Download:**

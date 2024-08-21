@@ -31,7 +31,7 @@ images into text. It is essential installing for the program to function correct
 Later in the setup, you will need to have the directory path where Tesseract was installed 
 copied. Follow the instructions below:
 
-**Windows** 
+**Windows:** 
 
 During Tesseract installation, you will need to choose the directory,
 as shown in the image:
@@ -41,7 +41,7 @@ as shown in the image:
 By default, the directory will be C:\Program Files\Tesseract-OCR copy this path and keep
 it saved.
 
-**Linux or macOS** 
+**Linux or macOS:** 
 
 After installing Tesseract, run the following command in your terminal:
 ```bash 
@@ -77,12 +77,56 @@ The final result will be:
 
 ![Gameplay Settings](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/large_mode_settings.jpg)
 
-## First Release
+## Downloading and Configuring the Bot
+
+### 1) Download the Files
+
+Choose one of the files below to download the Anya Shop 
+Bot based on your operating system:
+
+- [**anya-shop-bot-0.1.zip:**](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-0.1.zip) for systems that use ZIP files (Windows).
+- [**anya-shop-bot.tar.gz:**](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-0.1.tar) for systems that use TAR files (Linux or macOS).
+
+### 2) Installing Dependencies
+
+After downloading and extracting the bot folder:
+1. Ensure that Python is installed on your system.
+2. Navigate to the folder where you extracted the bot folder and open it.
+3. Locate the file named `install_requirements.py`.
+4. Double-click on `install_requirements.py` to run it. This will install all 
+the necessary dependencies for the bot run.
+
+### 3) Configuring the Bot
+
+1.**Locate the Configuration File**
+
+In the folder where you extracted the bot, find the file named 
+config.ini. This file contains settings necessary for the bot’s operation.
+
+
+2.**Edit the Configuration File**
+
+Open config.ini with a text editor of your choice (e.g., Notepad on 
+Windows, TextEdit on macOS, or any other text editor).
+- **Tesseract Path Configuration**
+
+    Inside the [tesseract] section, you need to specify the path where 
+    Tesseract OCR is installed. If you installed Tesseract in the default
+    directory `C:\Program Files\Tesseract-OCR`, you do not need to make 
+    any changes.
+    
+    
+
+
+## Releases
+
+### First Release
 [Version 0.1 - Initial Release](https://github.com/johnovelli/anya-shop-bot/releases/tag/v0.1)
 
-This is the first version of the bot. It includes basic functionality but still has room
-for improvement. More features and enhancements will be added in future updates.
+This is the first version of the bot. It includes basic functionality, 
+still has room for improvement. More features and enhancements will be added
+in future updates.
 
 **Download Links:**
-- [anya-shop-bot.zip](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-main.zip)
-- [anya-shop-bot.tar.gz](https://github.com/johnovelli/anya-shop-bot/archive/refs/tags/v0.1.tar.gz)
+- [anya-shop-bot-0.1.zip](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-0.1.zip)
+- [anya-shop-bot.tar-0.1.gz](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-0.1.tar)
