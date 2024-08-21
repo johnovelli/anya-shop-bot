@@ -13,6 +13,27 @@ to try to achieve what I once thought was impossible and I succeeded =)
 
 <br>
 
+## What Does Anya Shop Bot Do ?
+
+The Anya Shop Bot automates item checking in Diablo 2 Resurrected using Optical 
+Character Recognition (OCR) to read in-game item stats and compare with your
+specific parameters:
+
+- **Minimum life percentage and minimum number of sockets for armors.**
+
+
+- **Minimum assassin or trap skills and minimum lighting sentry skills for claws.**
+
+When an item meets your criteria, the bot will automatically
+purchase it.
+
+This tool can save you countless hours of manual checking, letting you focus on the 
+fun parts of the game while the bot does the repetitive work. Additionally, analyzing 
+the log of images for items that met at least one criterion can be fascinating, 
+offering insights into item randomization in the game.
+
+
+
 ## Installation and Prerequisites
 
 #### Before using the bot, it is necessary to ensure that some tools are installed on your system:
@@ -102,20 +123,15 @@ the necessary dependencies.
 
 ### 3) Configuring the Bot
 
-1.**Locate the Config File**
+**Locate and edit the Config File**
 
 In the folder where you extracted the bot, find the file named 
-`config.ini`. This file contains settings necessary for the bot’s operation.
-
-
-2.**Edit the Config File**
-
-Open config.ini with a text editor of your choice, ex: (Notepad on 
+`config.ini`, and open it using a text editor of your choice, ex: (Notepad on
 Windows, TextEdit on macOS, etc.).
 
-**Tesseract Path Configuration**
+1- **Tesseract Path Configuration**
 
-Inside the [tesseract] section, you need to specify the path where 
+Inside [tesseract] section, you need to specify the path where 
 Tesseract OCR is installed, which you copied earlier during the 
 installation process.
 
@@ -147,6 +163,14 @@ the path.
     pytesseract_path = /usr/local/bin
     ```
   
+<br>
+
+2- ** **
+
+Inside [tesseract] section, you need to specify the path where
+Tesseract OCR is installed, which you copied earlier during the
+installation process.
+
 <br>
 
 ## Releases
