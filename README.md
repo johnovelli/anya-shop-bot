@@ -13,7 +13,7 @@ to try to achieve what I once thought was impossible and I succeeded =)
 
 <br>
 
-## What Does Anya Shop Bot Do ?
+# What Does Anya Shop Bot Do ?
 
 The Anya Shop Bot automates the process of checking items in Diablo 2 Resurrected 
 using Optical Character Recognition (OCR). It specifically searches for:
@@ -35,7 +35,7 @@ fun parts of the game while the bot handles the repetitive tasks. Additionally,
 analyzing the log of images for items that met at least one criterion can be 
 fascinating, offering insights into the game item randomization.
 
-
+<br>
 
 ## Installation and Prerequisites
 
