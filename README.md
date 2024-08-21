@@ -31,7 +31,9 @@ images into text. It is essential installing for the program to function correct
 Later in the setup, you will need to have the directory path where Tesseract was installed 
 copied. Follow the instructions below:
 
-**Windows -** During Tesseract installation, you will need to choose the directory,
+**Windows** 
+
+During Tesseract installation, you will need to choose the directory,
 as shown in the image:
 
 ![Tesseract Installation](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/tesseract-windows.jpg)
@@ -39,9 +41,9 @@ as shown in the image:
 By default, the directory will be C:\Program Files\Tesseract-OCR copy this path and keep
 it saved.
 
-<br>
+**Linux or macOS** 
 
-**Linux or macOS -** After installing Tesseract, run the following command in your terminal:
+After installing Tesseract, run the following command in your terminal:
 ```bash 
 which tesseract
 ```
