@@ -39,6 +39,8 @@ as shown in the image:
 By default, the directory will be C:\Program Files\Tesseract-OCR copy this path and keep
 it saved.
 
+<br>
+
 **Linux or macOS -** After installing Tesseract, run the following command in your terminal:
 ```bash 
 which tesseract
@@ -46,10 +48,6 @@ which tesseract
 This command will return the path to the Tesseract executable. For example:
 ```bash 
 /usr/bin/tesseract
-```
-or
-```bash 
-/usr/local/bin/tesseract
 ```
 Next, copy the path that is returned, but make sure to remove /tesseract from the end.
 So, if the command returns /usr/bin/tesseract, you'll copy only /usr/bin as the path.
@@ -78,4 +76,4 @@ The final result will be:
 ![Gameplay Settings](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/large_mode_settings.jpg)
 
 
-<hr>
+#

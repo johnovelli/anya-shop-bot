@@ -45,11 +45,7 @@ Este comando retornará o caminho para o executável do Tesseract. Por exemplo:
 ```bash 
 /usr/bin/tesseract
 ```
-ou
-```bash 
-/usr/local/bin/tesseract
-```
-Em seguida, copie o caminho que é retornado, mas certifique-se de remover /tesseract do final.
+Em seguida copie o caminho que é retornado, mas certifique-se de remover /tesseract do final.
 Portanto, se o comando retornar /usr/bin/tesseract, você copiara apenas /usr/bin como o caminho.
 O resultado final será:
 ```bash 
@@ -75,4 +71,4 @@ O resultado final será:
 
 ![Configurações de Jogabilidade](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/large_mode_settings.jpg)
 
-<hr>
+#
