@@ -74,4 +74,13 @@ O resultado final será:
 
 ![Configurações de Jogabilidade](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/large_mode_settings.jpg)
 
-#
+## Primeira Versão
+[Version 0.1 - Initial Release](https://github.com/johnovelli/anya-shop-bot/releases/tag/v0.1)
+
+Esta é a primeira versão do bot. Ela inclui funcionalidades básicas, mas ainda há espaço
+para melhorias. Mais recursos e aprimoramentos serão adicionados em futuras atualizações.
+
+**Links para Download:**
+- [anya-shop-bot.zip](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-main.zip)
+- [anya-shop-bot.tar.gz](https://github.com/johnovelli/anya-shop-bot/archive/refs/tags/v0.1.tar.gz)
+
