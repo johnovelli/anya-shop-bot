@@ -11,6 +11,8 @@ first contact with bots and programming 22 years ago. Recently, I completed a fu
 developer course, and even though I didn't acquire the knowledge specifically for this, I decided
 to try to achieve what I once thought was impossible and I succeeded =)
 
+<br>
+
 ## Installation and Prerequisites
 
 #### Before using the bot, it is necessary to ensure that some tools are installed on your system:
@@ -96,11 +98,11 @@ After downloading and extracting the bot folder:
 2. Navigate to the folder where you extracted the bot folder and open it.
 3. Locate the file named `install_requirements.py`.
 4. Double-click on `install_requirements.py` to run it. This will install all 
-the necessary dependencies for the bot run.
+the necessary dependencies.
 
 ### 3) Configuring the Bot
 
-1.**Locate the Configuration File**
+1.**Locate the Config File**
 
 In the folder where you extracted the bot, find the file named 
 `config.ini`. This file contains settings necessary for the bot’s operation.
@@ -108,8 +110,8 @@ In the folder where you extracted the bot, find the file named
 
 2.**Edit the Config File**
 
-Open config.ini with a text editor of your choice (e.g., Notepad on 
-Windows, TextEdit on macOS, or any other text editor).
+Open config.ini with a text editor of your choice, ex: (Notepad on 
+Windows, TextEdit on macOS, etc.).
 
 **Tesseract Path Configuration**
 
@@ -136,9 +138,7 @@ the path.
     [tesseract]
     pytesseract_path = C:\\Your\\Custom\\Path\\To\\Tesseract-OCR
     ```
-
-<br>
-
+  
 - **Linux or macOS:**
 
   Paste the copied path earlier. For example:
