@@ -211,6 +211,7 @@ between 1 and 3.
 - Locate the run.py file inside this folder.
 - Double-click on the run.py file to open the bot.
 - A window like this will open:
+  ![Bot Runner](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/bot_window.jpg)
 
 
 
