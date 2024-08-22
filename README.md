@@ -205,16 +205,17 @@ between 1 and 3.
 
 ## Running the bot
 
-**1 - Prepare the Game:**
+### 1) Prepare the Game:
 
 - Ensure that the game is open and is configured according to the 
 instructions provided in the README.
 - Your character is positioned near Ana and the portal, just like 
 in the photo below:
+  ![character position](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/character_position.jpg)
 
 
 
-**2- Open the Bot Runner:**
+### 2) Open the Bot Runner:
 
 - Navigate to the folder where you extracted the bot files.
 - Locate the run.py file inside this folder.
