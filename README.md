@@ -110,6 +110,8 @@ The final result will be:
 
 ## Downloading and Configuring the Bot
 
+<br>
+
 ### 1) Download the Files
 
 Choose one of the files below to download the Anya Shop 
@@ -205,12 +207,14 @@ between 1 and 3.
 
 ## Running the bot
 
+<br>
+
 ### 1) Prepare the Game:
 
 - Ensure that the game is open and is configured according to the 
 instructions provided in the README.
-- Your character is positioned near Ana and the portal, just like 
-in the photo below:
+- Your character is positioned near Ana and the portal,
+as shown in the image below
   ![character position](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/character_position.jpg)
 
 
@@ -225,8 +229,14 @@ in the photo below:
   ![Bot Runner](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/bot_runner.jpg)
 
 
+### 3) Starting the Bot:
 
+- After opening the Bot Runner, follow the instructions 
+provided in the window to configure and start the bot.
+- Before running the bot, ensure that the Bot Runner window 
+is overlaid on top of the Diablo 2 Resurrected window, as shown in the image below:
 
+  ![Window position](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/window_position.jpg)
 
 <br>
 
