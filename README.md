@@ -184,8 +184,8 @@ armor must have to be considered. This value should be between 1 and 4.
   Example:
   ```ini
   [params]
-  min_life = 80
-  min_sockets = 2
+  min_life = 90
+  min_sockets = 3
   ```
 **Claw:** 
 - **min_skill:** Defines the minimum number of assassin or trap 
@@ -197,13 +197,22 @@ between 1 and 3.
   Example:
   ```ini
   [params]
-  min_skill = 2
+  min_skill = 1
   min_has_skill = 2
   ```
 
 <br>
 
 ## Running the bot
+
+**1- Open the Bot:**
+
+- Navigate to the folder where you extracted the bot files.
+- Locate the run.py file inside this folder.
+- Double-click on the run.py file to open the bot.
+- A window like this will open:
+
+
 
 <br>
 

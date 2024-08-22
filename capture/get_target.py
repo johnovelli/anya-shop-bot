@@ -39,6 +39,4 @@ def getItemValues(game_window, target_img, threshold, color_filter):
 def getTargetBorder_Center(game_window, top_left, bot_right, color):
     cv.rectangle(game_window, top_left, bot_right, color, thickness=2, lineType=cv.LINE_4)
     centers = (top_left[0] + bot_right[0]) // 2, (top_left[1] + bot_right[1]) // 2
-    cv.drawMarker(game_window, centers, color=(135, 12, 236), markerType=cv.MARKER_CROSS)
     return centers
-
