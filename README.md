@@ -110,8 +110,6 @@ The final result will be:
 
 ## Downloading and Configuring the Bot
 
-<br>
-
 ### 1) Download the Files
 
 Choose one of the files below to download the Anya Shop 
@@ -206,8 +204,6 @@ between 1 and 3.
 <br>
 
 ## Running the bot
-
-<br>
 
 ### 1) Prepare the Game:
 
