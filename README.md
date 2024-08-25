@@ -13,7 +13,6 @@ to anyone who is willing to learn and seek information.
 
 My motivation was to fulfill my dream of developing a bot, something I have desired since my 
 first contact with bots and programming 22 years ago.
-
 ## Index
 
 1. [What Does Anya Shop Bot Do?](#what-does-anya-shop-bot-do-)
@@ -46,9 +45,9 @@ It specifically searches for:
 
 You can define the exact parameters witch the bot will search for:
 
-- Minimum life percentage and minimum number of sockets for armors.
+- **Minimum life percentage** and **minimum number of sockets** for armors.
 
-- Minimum assassin or trap skills and minimum lighting sentry skills for claws.
+- **Minimum assassin or trap skills** and **minimum lighting sentry skills** for claws.
 
 If an item meets your criteria, the bot will automatically purchase it.
 
@@ -99,7 +98,7 @@ After installing Tesseract, run the following command in your terminal:
 ```markdown
 which tesseract
 ```
-This command will return the path to the Tesseract executable. For example:
+This command will return the path to Tesseract executable. For example:
 ```markdown
 /usr/bin/tesseract
 ```
@@ -118,7 +117,7 @@ The final result will be:
 
 ### 2) Resolution and Display mode
 
-- The resolution should be 1280x720.
+- The resolution must be 1280x720.
 - The game must be in Windowed Mode.
 
 ![Resolution and Display mode](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/display_settings.jpg)
@@ -199,7 +198,7 @@ the path.
   
 <br>
 
-**2- Configuring the Bot Parameters**
+**2- Configuring Items Parameters**
 
 **Armor:**
 
@@ -264,7 +263,7 @@ as shown in the image below
 ### 3) Start the Bot:
 
 - After opening the Bot Runner, follow the instructions 
-provided in the window to configure and start the bot.
+provided in the window to start the bot.
 - Before running the bot, ensure that the Bot Runner window 
 is overlaid on top of the Diablo 2 Resurrected window, as shown in the image below:
 
