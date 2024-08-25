@@ -211,7 +211,7 @@ armor must have to be considered. This value should be between 1 and 4.
   ```
   ![Gameplay Settings](https://github.com/johnovelli/anya-shop-bot/blob/main/imgs/config/armor_example.jpg?raw=true)
 
-  *Armor purchased by the bot using these parameters*
+  *Armor purchased by the bot using these parameters.*
   
 **Claw:** 
 - **min_skill:** Defines the minimum number of assassin or trap 
@@ -226,10 +226,12 @@ between 1 and 3.
   min_skill = 2
   min_has_skill = 2
   ```
-  ![Gameplay Settings](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/claw_example.jpg)
+    <p>
+    <img src="https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/claw_example.jpg" alt="Gameplay Settings" />
 
-  *Claw purchased by the bot using these parameters*
-<br>
+    <em>Claw purchased by the bot using these parameters</em>
+    </p>
+    <br>
 
 ## Running the bot
 
