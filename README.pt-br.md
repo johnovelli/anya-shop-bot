@@ -4,32 +4,32 @@
 
 Anya Shop Bot é uma ferramenta projetada para automatizar o processo de verificação e compra de itens 
 específicos em ***Diablo 2 Resurrected***, com foco no estudo da randomização de itens do jogo. Este bot é 
-destinado apenas para uso **OFFLINE**, servindo exclusivamente para fins educativos e experimentais.
+destinado apenas para uso **OFFLINE**, servindo exclusivamente fins educativos e experimentais.
 
 O objetivo deste projeto é compartilhar o conhecimento que adquiri durante o desenvolvimento. Espero inspirar 
 outras pessoas a embarcarem nesta jornada e descobrirem que a programação é acessível a todos que estão dispostos a 
 aprender e buscar informações.
 
-Minha motivação foi realizar o sonho de desenvolver um bot, algo que desejo desde o meu primeiro contato com bots e 
+Minha motivação foi realizar o sonho de desenvolver um bot, algo que desejo desde meu primeiro contato com bots e 
 programação há 22 anos.
 ## Índice
 
 1. [O Que Faz o Anya Shop Bot?](#o-que-faz-o-anya-shop-bot-)
-2. [Installation and Prerequisites](#installation-and-prerequisites)
-  - [Python](#1-python)
-  - [Tesseract](#2-tesseract)
-  - [Game and Screen Configuration](#1-language)
-3. [Downloading and Configuring the Bot](#downloading-and-configuring-the-bot)
-  - [Downloading the Files](#1-download-the-files)
-  - [Installing Dependencies](#2-installing-dependencies)
-  - [Configuring the Bot](#3-configuring-the-bot)
-4. [Running the Bot](#running-the-bot)
-  - [Prepare the Game](#1-prepare-the-game)
-  - [Open the Bot Runner](#2-open-the-bot-runner)
-  - [Starting the Bot](#3-start-the-bot)
-5. [Releases](#releases)
-  - [First Release](#first-release)
-  - 
+2. [Instalação e Pré-Requisitos](#instalação-e-pré-requisitos)
+   - [Python](#1-python)
+   - [Tesseract](#2-tesseract)
+   - [Configuração do Jogo e da Tela](#1-idioma)
+3. [Baixando e Configurando o Bot](#baixando-e-configurando-o-bot)
+   - [Baixando os Arquivos](#1-faça-download-dos-arquivos)
+   - [Instalando as Dependências](#2-instalando-as-dependências)
+   - [Configurando o Bot](#3-configurando-o-bot)
+4. [Executando o Bot](#executando-o-bot)
+   - [Prepare o Jogo](#1-prepare-o-jogo)
+   - [Abra o Bot Runner](#2-abra-o-bot-runner)
+   - [Inicie o Bot](#3-inicie-o-bot)
+5. [Lançamentos](#lançamentos)
+   - [Primeira Versão](#primeira-versão)
+
 ## O Que Faz o Anya Shop Bot ?
 
 O bot automatiza o processo de verificação e compra de itens usando Reconhecimento Óptico de Caracteres (OCR). 
@@ -127,7 +127,7 @@ O resultado final será:
 
 <br>
 
-## Downloading and Configuring the Bot
+## Baixando e configurando o Bot
 
 ### 1) Faça download dos Arquivos
 
@@ -255,13 +255,13 @@ como mostrado na imagem abaixo:
 
 <br>
 
-## Primeira Versão
-[Version 0.1 - Initial Release](https://github.com/johnovelli/anya-shop-bot/releases/tag/v0.1)
+## Lançamentos
 
-Esta é a primeira versão do bot. Ela inclui funcionalidades básicas, ainda há espaço
-para melhorias. Mais recursos e aprimoramentos serão adicionados em futuras atualizações.
+### Primeira Versão
+[Versão 0.1 - Lançamento Inicial](https://github.com/johnovelli/anya-shop-bot/releases/tag/v0.1)
+
+Esta é a primeira versão do bot. Ela inclui funcionalidades básicas e ainda há espaço para melhorias. Mais recursos e aprimoramentos serão adicionados em futuras atualizações.
 
 **Links para Download:**
-- [anya-shop-bot.zip](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-main.zip)
-- [anya-shop-bot.tar.gz](https://github.com/johnovelli/anya-shop-bot/archive/refs/tags/v0.1.tar.gz)
-
+- [anya-shop-bot-0.1.zip](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-0.1.zip)
+- [anya-shop-bot-0.1.tar.gz](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-0.1.tar)
