@@ -64,7 +64,7 @@ fascinating, offering insights into the game item randomization.
 
 ## Installation and Prerequisites
 
-#### Before using the bot, it is necessary to ensure that some tools are installed on your system:
+#### Before using the bot, it is necessary to ensure that some tools are installed on your system.All links provided below will direct you to the official download pages for each tool:
 
 ### 1) Python
 Anya Shop Bot is developed in Python, which is necessary for running the 
@@ -244,7 +244,7 @@ between 1 and 3.
 ### 1) Prepare the Game:
 
 - Ensure that the game is open and is configured according to the 
-instructions provided in the README.
+instructions provided above, in this document.
 - Your character is positioned near Ana and the portal,
 as shown in the image below
   ![character position](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/character_position.jpg)
