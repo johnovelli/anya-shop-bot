@@ -157,7 +157,7 @@ the necessary dependencies.
 
 ### 3) Configuring the Bot
 
-**Locate and edit the Config File**
+**Locate and edit the Config File:**
 
 In the folder where you extracted the bot, find the file named 
 `config.ini`, and open it using a text editor of your choice, ex: (Notepad on

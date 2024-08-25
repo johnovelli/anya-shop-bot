@@ -81,7 +81,7 @@ como mostrado na imagem:
 ![Instalação do Tesseract](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/tesseract-windows.jpg)
 
 Por padrão, o diretório será *C:\Program Files\Tesseract-OCR*. Se o diretório de instalação for diferente,
-certifique-se de copiar o caminho da sua instalação específica e mantê-lo salvo.
+certifique-se de copiar o caminho da sua instalação específica e manter salvo.
 
 <br>
 
@@ -97,7 +97,7 @@ Em seguida copie o caminho que é retornado, mas certifique-se de remover /tesse
 Portanto, se o comando retornar /usr/bin/tesseract, você copiara apenas /usr/bin como o caminho.
 O resultado final será:
 ```markdown
-/usr/bin/
+/usr/bin
 ```
 #
 #### Para garantir o funcionamento correto do bot, configure o jogo e a tela conforme as seguintes especificações:
@@ -121,7 +121,7 @@ O resultado final será:
 
 ### 3) Configurações de Jogabilidade
 
-- Em acessibility o Modo de Fonte Grande deve estar habilitado.
+- Em acessibilidade o Modo de Fonte Grande deve estar habilitado.
 
 ![Configurações de Jogabilidade](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/large_mode_settings.jpg)
 
@@ -148,7 +148,7 @@ Após baixar e extrair a pasta do bot:
 
 ### 3) Configurando o Bot
 
-**Localize e edite o Arquivo de Configuração**
+**Localize e edite o Arquivo de Configuração:**
 
 Na pasta onde você extraiu o bot, encontre o arquivo chamado
 `config.ini` e abra-o usando um editor de texto de sua escolha, por exemplo: 
