@@ -4,7 +4,7 @@
 [Leia este documento em português.](README.pt-br.md)
 
 Anya Shop Bot is a tool designed to automate the process of checking and purchasing specific items
-in *Diablo 2 Resurrected*, focusing on studying the game item randomization. This bot is intended for 
+in ***Diablo 2 Resurrected***, focusing on studying the game item randomization. This bot is intended for 
 **OFFLINE** use only, serving purely educational and experimental purposes.
 
 The goal of this project is to share the knowledge I gained during development. 
@@ -14,7 +14,7 @@ to anyone who is willing to learn and seek information.
 My motivation was to fulfill my dream of developing a bot, something I have desired since my 
 first contact with bots and programming 22 years ago.
 
-# Index
+## Index
 
 1. [What Does Anya Shop Bot Do?](#what-does-anya-shop-bot-do-)
 2. [Installation and Prerequisites](#installation-and-prerequisites)
@@ -207,8 +207,11 @@ armor must have to be considered. This value should be between 1 and 4.
   ```ini
   [params]
   min_life = 90
-  min_sockets = 3
+  min_sockets = 4
   ```
+  ![Gameplay Settings](https://github.com/johnovelli/anya-shop-bot/blob/main/imgs/config/armor_example.jpg?raw=true)
+  *Armor purchased by the bot using these parameters*
+  
 **Claw:** 
 - **min_skill:** Defines the minimum number of assassin or trap 
 skills an item must have. This value should be between 1 and 3.
@@ -219,10 +222,11 @@ between 1 and 3.
   Example:
   ```ini
   [params]
-  min_skill = 1
+  min_skill = 2
   min_has_skill = 2
   ```
-
+  ![Gameplay Settings](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/claw_example.jpg)
+  *Claw purchased by the bot using these parameters*
 <br>
 
 ## Running the bot
