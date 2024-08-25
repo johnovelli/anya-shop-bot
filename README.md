@@ -3,14 +3,37 @@
 
 [Leia este documento em português.](README.pt-br.md)
 
-The purpose of this project is to share the knowledge I gained during development of this bot. 
+Anya Shop Bot is a tool designed to automate the process of checking and purchasing specific items
+in *Diablo 2 Resurrected*, focusing on studying the game item randomization. This bot is intended for 
+**OFFLINE** use only, serving purely educational and experimental purposes.
+
+The goal of this project is to share the knowledge I gained during development. 
 I hope to inspire others to embark on this journey and discover that programming is accessible 
 to anyone who is willing to learn and seek information.
 
 My motivation was to fulfill my dream of developing a bot, something I have desired since my 
-first contact with bots and programming 22 years ago. Recently, I completed a full-stack 
-developer course, and even though I didn't acquire the knowledge specifically for this, I decided
-to try to achieve what I once thought was impossible and I succeeded =)
+first contact with bots and programming 22 years ago.Recently, I decided to attempt to 
+achieve what I once thought was impossible, and I succeeded =)
+
+<br>
+
+# Contents
+
+1. [What Does Anya Shop Bot Do?](#what-does-anya-shop-bot-do-)
+2. [Installation and Prerequisites](#installation-and-prerequisites)
+   - [Python](#1-python)
+   - [Tesseract](#2-tesseract)
+   - [Game and Screen Configuration](#1-language)
+3. [Downloading and Configuring the Bot](#downloading-and-configuring-the-bot)
+   - [Downloading the Files](#1-download-the-files)
+   - [Installing Dependencies](#2-installing-dependencies)
+   - [Configuring the Bot](#3-configuring-the-bot)
+4. [Running the Bot](#running-the-bot)
+   - [Prepare the Game](#1-prepare-the-game)
+   - [Open the Bot Runner](#2-open-the-bot-runner)
+   - [Starting the Bot](#3-starting-the-bot)
+5. [Releases](#releases)
+   - [First Release](#first-release)
 
 <br>
 
@@ -18,8 +41,11 @@ to try to achieve what I once thought was impossible and I succeeded =)
 
 <br>
 
-The Anya Shop Bot automates the process of checking items in Diablo 2 Resurrected 
-using Optical Character Recognition (OCR). It specifically searches for:
+The bot automates the process of checking and purchasing items using Optical Character
+Recognition (OCR).
+Interact with npc Anya, looking for specific items that match the attributes given. 
+
+It specifically searches for:
 
 - **Armors** with the suffix "The Whale" that contain life and are socketed.
 - **Trap Claws** with assassin or trap skills and lighting sentry skills.
@@ -30,11 +56,13 @@ You can define the exact parameters witch the bot will search for:
 
 - Minimum assassin or trap skills and minimum lighting sentry skills for claws.
 
-When an item meets your criteria, the bot will automatically
-purchase it.
+If an item meets your criteria, the bot will automatically purchase it.
 
-This tool can save you countless hours of manual checking, letting you focus on the 
-fun parts of the game while the bot handles the repetitive tasks. Additionally, 
+After interacting with Anya, the bot will leave and return to town through
+the red portal, refreshing her inventory. Then repeat the process until the bot 
+is paused.
+
+This tool can save you countless hours of manual checking. Additionally, 
 analyzing the log of images for items that met at least one criterion can be 
 fascinating, offering insights into the game item randomization.
 
@@ -45,14 +73,14 @@ fascinating, offering insights into the game item randomization.
 #### Before using the bot, it is necessary to ensure that some tools are installed on your system:
 
 ### 1) Python
-The Anya Shop Bot is developed in Python, which is necessary for running the 
+Anya Shop Bot is developed in Python, which is necessary for running the 
 program.
 - [Python for Windows](https://www.python.org/downloads/windows/)
 - [Python for Linux](https://www.python.org/downloads/source/)
 - [Python for macOS](https://www.python.org/downloads/macos/)
 
 ### 2) Tesseract
-This is an OCR (Optical Character Recognition) that allows the bot to convert 
+OCR (Optical Character Recognition) that allows the bot to convert 
 images into text. It is essential installing for the program to function correctly.
 - [Tesseract for Windows](https://github.com/UB-Mannheim/tesseract/wiki)
 - [Tesseract for Linux or macOS](https://tesseract-ocr.github.io/tessdoc/Installation.html)
@@ -67,8 +95,9 @@ as shown in the image:
 
 ![Tesseract Installation](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/tesseract-windows.jpg)
 
-By default, the directory will be C:\Program Files\Tesseract-OCR copy this path and keep
-it saved.
+By default, the directory will be *C:\Program Files\Tesseract-OCR*. 
+If your installation directory is different, make sure to copy the path of your 
+specific installation and keep it saved.
 
 **Linux or macOS:** 
 
@@ -91,7 +120,7 @@ The final result will be:
 
 ### 1) Language
 
-- Diablo 2 Resurrected must be set to English.
+- Diablo 2 Resurrected must be in English.
 
 ### 2) Resolution and Display mode
 
@@ -112,7 +141,7 @@ The final result will be:
 
 ### 1) Download the Files
 
-Choose one of the files below to download the Anya Shop 
+Choose one of the files below to download Anya Shop 
 Bot based on your operating system:
 
 - [**anya-shop-bot-0.1.zip**](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-0.1.zip) for systems that use ZIP files (Windows).
