@@ -73,7 +73,7 @@ it saved.
 **Linux or macOS:** 
 
 After installing Tesseract, run the following command in your terminal:
-```bash 
+```markdown
 which tesseract
 ```
 This command will return the path to the Tesseract executable. For example:
