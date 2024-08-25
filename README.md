@@ -14,7 +14,7 @@ to anyone who is willing to learn and seek information.
 My motivation was to fulfill my dream of developing a bot, something I have desired since my 
 first contact with bots and programming 22 years ago.
 
-# Contents
+# Index
 
 1. [What Does Anya Shop Bot Do?](#what-does-anya-shop-bot-do-)
 2. [Installation and Prerequisites](#installation-and-prerequisites)
@@ -34,8 +34,6 @@ first contact with bots and programming 22 years ago.
 
 
 ## What Does Anya Shop Bot Do ?
-
-<br>
 
 The bot automates the process of checking and purchasing items using Optical Character
 Recognition (OCR).
@@ -102,13 +100,13 @@ After installing Tesseract, run the following command in your terminal:
 which tesseract
 ```
 This command will return the path to the Tesseract executable. For example:
-```bash 
+```markdown
 /usr/bin/tesseract
 ```
 Next, copy the path that is returned, but make sure to remove /tesseract from the end.
 So, if the command returns /usr/bin/tesseract, you'll copy only /usr/bin as the path.
 The final result will be:
-```bash 
+```markdown
 /usr/bin
 ```
 #
@@ -172,9 +170,8 @@ the path.
 
 - **Windows:**
 
-    If you installed Tesseract in the default
-    directory `C:\Program Files\Tesseract-OCR`, you do not need to make 
-    any changes.
+  If Tesseract is installed in the default directory
+`C:\Program Files\Tesseract-OCR`, no changes are needed.
 
     If installed elsewhere, specify the full path to the Tesseract executable
     and format it correctly:
