@@ -123,7 +123,7 @@ The final result will be:
 
 ![Resolution and Display mode](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/display_settings.jpg)
 
-### 3) Graphic Preset
+### 3) Graphics
 
 - The Graphic Preset must be set to "Medium".
 
