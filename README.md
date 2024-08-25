@@ -119,13 +119,19 @@ The final result will be:
 ### 2) Resolution and Display mode
 
 - The resolution should be 1280x720.
-- The game should be in Windowed Mode.
+- The game must be in Windowed Mode.
 
 ![Resolution and Display mode](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/display_settings.jpg)
 
-### 3) Gameplay Settings
+### 3) Graphic Preset
 
-- In accessibility Large Font Mode should be enabled.
+- The Graphic Preset must be set to "Medium".
+
+![Graphic Preset](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/graphic_preset.jpg)
+
+### 4) Gameplay Settings
+
+- In accessibility Large Font Mode must be enabled.
 
 ![Gameplay Settings](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/large_mode_settings.jpg)
 
