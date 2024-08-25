@@ -12,10 +12,7 @@ I hope to inspire others to embark on this journey and discover that programming
 to anyone who is willing to learn and seek information.
 
 My motivation was to fulfill my dream of developing a bot, something I have desired since my 
-first contact with bots and programming 22 years ago.Recently, I decided to attempt to 
-achieve what I once thought was impossible, and I succeeded =)
-
-<br>
+first contact with bots and programming 22 years ago.
 
 # Contents
 
@@ -31,11 +28,10 @@ achieve what I once thought was impossible, and I succeeded =)
 4. [Running the Bot](#running-the-bot)
    - [Prepare the Game](#1-prepare-the-game)
    - [Open the Bot Runner](#2-open-the-bot-runner)
-   - [Starting the Bot](#3-starting-the-bot)
+   - [Starting the Bot](#3-start-the-bot)
 5. [Releases](#releases)
    - [First Release](#first-release)
 
-<br>
 
 ## What Does Anya Shop Bot Do ?
 
@@ -254,7 +250,7 @@ as shown in the image below
   ![Bot Runner](https://raw.githubusercontent.com/johnovelli/anya-shop-bot/main/imgs/config/bot_runner.jpg)
 
 
-### 3) Starting the Bot:
+### 3) Start the Bot:
 
 - After opening the Bot Runner, follow the instructions 
 provided in the window to configure and start the bot.
