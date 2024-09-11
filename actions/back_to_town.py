@@ -12,7 +12,7 @@ def backToTown(game_window):
     out_area_values = getTargetValues(game_window, 'imgs/portal/out_town_area.jpg')
 
     # Check if the player is in the out-of-town area with a confidence threshold
-    if out_area_values['max_val'] >= 0.88:
+    if out_area_values['max_val'] >= 0.85:
         # Get the values of the town portal image to check if the town portal is present
         out_tp_values = getTargetValues(game_window, 'imgs/portal/out_town_tp.jpg')
 

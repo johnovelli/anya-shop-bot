@@ -2,6 +2,7 @@ import subprocess
 import sys
 import os
 
+
 def install_requirements():
     requirements_file = 'requirements.txt'
 

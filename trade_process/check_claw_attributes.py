@@ -24,7 +24,6 @@ def checkClawAttributes():
     # Iterate over each line of attributes
     for line in lines:
         line = line.lower()  # Convert the line to lowercase
-
         # Check if the line contains any skill information, excluding certain cases
         if any(skill in line for skill in skills_lines) and '(assassin @nly)' != line:
             # Check if the skill level is within the desired range
