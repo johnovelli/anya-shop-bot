@@ -143,8 +143,8 @@ The final result will be:
 Choose one of the files below to download Anya Shop 
 Bot based on your operating system:
 
-- [**anya-shop-bot-0.1.zip**](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-0.1.zip) for systems that use ZIP files (Windows).
-- [**anya-shop-bot.tar.gz**](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-0.1.tar) for systems that use TAR files (Linux or macOS).
+- [**anya-shop-bot-0.1.zip**](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1.2/anya-shop-bot-0.1.2.zip) for systems that use ZIP files (Windows).
+- [**anya-shop-bot.tar**](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1.2/anya-shop-bot-0.1.2.tar) for systems that use TAR files (Linux or macOS).
 
 ### 2) Installing Dependencies
 
