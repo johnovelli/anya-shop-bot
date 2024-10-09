@@ -273,6 +273,19 @@ is overlaid on top of the Diablo 2 Resurrected window, as shown in the image bel
 
 ## Releases
 
+### Latest Release
+[Version 0.1.2 - Initial Release](https://github.com/johnovelli/anya-shop-bot/releases/tag/v0.1.2)
+
+This is the first version of the bot. It includes basic functionality, 
+still has room for improvement. More features and enhancements will be added
+in future updates.
+
+**Download Links:**
+- [anya-shop-bot-0.1.2.zip](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1.2/anya-shop-bot-0.1.2.zip)
+- [anya-shop-bot.tar-0.1.2.tar](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1.2/anya-shop-bot-0.1.2.tar)
+
+</br>
+
 ### First Release
 [Version 0.1 - Initial Release](https://github.com/johnovelli/anya-shop-bot/releases/tag/v0.1)
 
@@ -282,4 +295,4 @@ in future updates.
 
 **Download Links:**
 - [anya-shop-bot-0.1.zip](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-0.1.zip)
-- [anya-shop-bot.tar-0.1.gz](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-0.1.tar)
+- [anya-shop-bot.tar-0.1.tar](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1/anya-shop-bot-0.1.tar)
