@@ -12,8 +12,7 @@ def leaveTown(game_window):
     in_tp_values = getTargetValues(game_window, 'imgs/portal/in_town_tp.jpg')
 
     # Check if the town portal image matches with a confidence threshold
-    print(in_tp_values['max_val'])
-    if in_tp_values['max_val'] >= 0.55:
+    if in_tp_values['max_val'] >= 0.35:
         # Get the center position of the town portal
         in_tp_center = (
             getTarget_Center(game_window, in_tp_values['top_left'], in_tp_values['bot_right'], (128, 55, 30))

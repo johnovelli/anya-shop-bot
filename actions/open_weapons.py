@@ -11,7 +11,7 @@ def openWeapons(game_window):
     weapons_values = getTargetValues(game_window, 'imgs/shop/weapons.jpg')
 
     # Check if the weapons image matches with a confidence threshold
-    if weapons_values['max_val'] >= 0.5:
+    if weapons_values['max_val'] >= 0.4:
         # Get the center position of the weapons section
         weapons_center = (
             getTarget_Center(game_window, weapons_values['top_left'], weapons_values['bot_right'], (128, 55, 30))
