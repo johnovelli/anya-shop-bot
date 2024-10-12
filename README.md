@@ -143,8 +143,8 @@ The final result will be:
 Choose one of the files below to download Anya Shop 
 Bot based on your operating system:
 
-- [**anya-shop-bot-0.1.zip**](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1.2/anya-shop-bot-0.1.2.zip) for systems that use ZIP files (Windows).
-- [**anya-shop-bot.tar**](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1.2/anya-shop-bot-0.1.2.tar) for systems that use TAR files (Linux or macOS).
+- [**anya-shop-bot-0.1.2.zip**](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1.2/anya-shop-bot-0.1.2.zip) for systems that use ZIP files (Windows).
+- [**anya-shop-bot-0.1.2.tar**](https://github.com/johnovelli/anya-shop-bot/releases/download/v0.1.2/anya-shop-bot-0.1.2.tar) for systems that use TAR files (Linux or macOS).
 
 ### 2) Installing Dependencies
 
@@ -274,7 +274,7 @@ is overlaid on top of the Diablo 2 Resurrected window, as shown in the image bel
 ## Releases
 
 ### Latest Release
-[Version 0.1.2 - Initial Release](https://github.com/johnovelli/anya-shop-bot/releases/tag/v0.1.2)
+[Version 0.1.2 - Latest Release](https://github.com/johnovelli/anya-shop-bot/releases/tag/v0.1.2)
 
 This is the first version of the bot. It includes basic functionality, 
 still has room for improvement. More features and enhancements will be added
